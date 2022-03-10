@@ -5,9 +5,11 @@ February 10, 2022
 
 ### Project Title
 Explore US Bikeshare Data
+![](bicycles.jpg)
 
 ### Description
-The Explore US Bikeshare Data project allows users to explore Bikeshare Data in any one of three US cities: Chicago, Washington and New York City. Users may discover:
+The Explore US Bikeshare Data project allows users to explore Bikeshare Data in any one of three US cities: Chicago, Washington and New York City.
+Users may discover:
  * The most frequent times of travel
  * The most popular stations and trip
  * Total and average travel times
