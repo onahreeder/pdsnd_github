@@ -72,7 +72,7 @@ def load_data(city, month, day):
     df['month'] = df['Start Time'].dt.month
 
     df['day_of_week'] = df['Start Time'].dt.weekday_name
-    # df['day_of_week'] = df['Start Time'].dt.day_name
+    # df['day_of_week'] = df['Start Time'].dt.day_name  for use in later version of Pandas
 
     df['hour'] = df['Start Time'].dt.hour
 
@@ -140,7 +140,7 @@ def station_stats(df):
     popular_end = df['End Station'].mode()[0]
     print('Most popular end station is: ', popular_end)
 
-    #  display most frequent combination of start station and end station trip
+    # display most frequent combination of start station and end station trip
     # create combo column
     df['Station Combo']= df['Start Station'] + ' to ' + df['End Station']
     popular_station_combo = df['Station Combo'].mode()[0]
